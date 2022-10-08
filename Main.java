@@ -30,7 +30,7 @@ Horse horse = new Horse (userName, weight,isTame);
      decision= scanner.next().charAt(0);
   }
 			for(int i=0;i<stable.horseArraylist.size();i++){
-        System.out.println("Horse #" + (i+1)+ "Name: "+ stable.horseArraylist.get(i).name + "Weight: "+ stable.horseArraylist.get(i).weight+ "Tame: "+ stable.horseArraylist.get(i).isTame);
+        System.out.println("Horse #" + (i+1)+ " Name: "+ stable.horseArraylist.get(i).name + " Weight: "+ stable.horseArraylist.get(i).weight+ " Tame: "+ stable.horseArraylist.get(i).isTame);
       }
 		
 	  }
